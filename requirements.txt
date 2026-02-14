@@ -11,22 +11,22 @@ google-genai
 anthropic
 
 # Embeddings / retrieval
-sentence-transformers>=2.2.2,<3.0.0
-torch>=2.0.0
-transformers>=4.35.0
+# sentence-transformers>=2.2.2,<3.0.0
+# torch>=2.0.0
+# transformers>=4.35.0
 
-matplotlib
+# matplotlib
 
 # Vector DB + RAGAS
-chromadb>=0.4.22
-ragas>=0.1.8
-instructor
-litellm
-datasets
-scikit-learn
-pyarrow==20.0.0
+# chromadb>=0.4.22
+# ragas>=0.1.8
+# instructor
+# litellm
+# datasets
+# scikit-learn
+# pyarrow==20.0.0
 
-pycryptodome
+# pycryptodome
 
 plotly
 umap-learn
