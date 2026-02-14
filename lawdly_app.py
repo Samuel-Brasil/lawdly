@@ -30,19 +30,16 @@ with st.sidebar:
 
     img1a = 'assets/Harvard_MIT_CCC_removebg.png'
     st.image([img1a], width=300)
-#    st.markdown(
-#        f'<div><span style="color:#750014; font-size:40px; font-weight:bold;">Bench</span>'
+    st.markdown(
+        f'<div><span style="color:#750014; font-size:40px; font-weight:bold;">Lawdly</span>',
 #        f'<span style="color:#8b959e; font-size:40px; font-weight:bold;">Mark</span></div>',
-#        unsafe_allow_html=True
-#    )
-    st.write('#### Principal Investigators:')
+        unsafe_allow_html=True
+    )
+    st.write('#### Coder:')
     img2logo = 'assets/logo.jpeg'
-#    img2deb = 'assets/Deb_Roy_j0BvBsaT_400x400.jpg'
     st.image([img2logo], caption=["Sam"], width=60)
-#    st.write('#### Research Leader:')
-#    st.write('Samuel Brasil')
-#    st.write('Team:', 'Denny Lee, Suyash Fulay')
 
+    
     # Getting the user's email
 #    user_email = st.experimental_user.email
     user_email = "test"
@@ -322,8 +319,8 @@ def main():
     teste='testando a birosca'
     print(teste)
     st.markdown(
-        f'<div><span style="color:#750014; font-size:55px; font-weight:bold;">Bench</span>'
-        f'<span style="color:#8b959e; font-size:55px; font-weight:bold;">Mark</span></div>',
+        f'<div><span style="color:#750014; font-size:55px; font-weight:bold;">Lawdly</span>',
+#        f'<span style="color:#8b959e; font-size:55px; font-weight:bold;">Mark</span></div>',
         unsafe_allow_html=True
     )
 
@@ -385,7 +382,7 @@ def main():
                 st.success(f"Time elapsed: {total_time} seconds")
 
                 # Display the final response
-                st.write("**BenchMark**:", answer)
+                st.write(answer)
 
                 # Save to GitHub
                 date_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
