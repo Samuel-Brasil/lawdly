@@ -28,7 +28,7 @@ import random  # for random choice
 st.set_page_config(layout="wide")
 with st.sidebar:
 
-    img1a = 'assets/logo.jpeg'
+    img1a = 'assets/logo2.jpeg'
     st.image([img1a], width=200)
 #    st.markdown(
 #        f'<div><span style="color:#750014; font-size:40px; font-weight:bold;">Lawdly</span>',
