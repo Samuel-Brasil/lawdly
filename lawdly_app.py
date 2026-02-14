@@ -29,7 +29,7 @@ st.set_page_config(layout="wide")
 with st.sidebar:
 
     img1a = 'assets/logo.jpeg'
-    st.image([img1a], width=300)
+    st.image([img1a], width=200)
 #    st.markdown(
 #        f'<div><span style="color:#750014; font-size:40px; font-weight:bold;">Lawdly</span>',
 #        unsafe_allow_html=True
