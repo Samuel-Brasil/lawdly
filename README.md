@@ -1,2 +1,2 @@
 # lawdly
-Legal Research Assistant
+Legal Assistant
