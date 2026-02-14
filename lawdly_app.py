@@ -64,7 +64,7 @@ with st.sidebar:
 # GitHub Access to the case folder and to save generated responses
 owner = 'Samuel-Brasil'
 repo = 'BenchMarks'
-github_token = st.secrets['BENCHMARK_GITHUB_TOKEN']
+github_token = st.secrets['LAWDLY_GITHUB_TOKEN']
 
 DATA_FOLDER = "data"
 GITHUB_API_URL = f'https://api.github.com/repos/{owner}/{repo}/contents/{DATA_FOLDER}'
