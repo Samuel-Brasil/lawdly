@@ -36,9 +36,9 @@ with st.sidebar:
 #        unsafe_allow_html=True
 #    )
     st.write('#### Principal Investigators:')
-    img2martha = 'assets/Minow-Martha_9123_radcliffe-TR.avif'
-    img2deb = 'assets/Deb_Roy_j0BvBsaT_400x400.jpg'
-    st.image([img2martha, img2deb], caption=["Martha Minow", "Deb Roy"], width=60)
+    img2logo = 'assets/logo.jpeg'
+#    img2deb = 'assets/Deb_Roy_j0BvBsaT_400x400.jpg'
+    st.image([img2logo], caption=["Sam"], width=60)
 #    st.write('#### Research Leader:')
 #    st.write('Samuel Brasil')
 #    st.write('Team:', 'Denny Lee, Suyash Fulay')
