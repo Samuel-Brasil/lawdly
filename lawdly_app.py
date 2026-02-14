@@ -28,16 +28,16 @@ import random  # for random choice
 st.set_page_config(layout="wide")
 with st.sidebar:
 
-    img1a = 'assets/Harvard_MIT_CCC_removebg.png'
+    img1a = 'assets/logo.jpeg'
     st.image([img1a], width=300)
-    st.markdown(
-        f'<div><span style="color:#750014; font-size:40px; font-weight:bold;">Lawdly</span>',
-#        f'<span style="color:#8b959e; font-size:40px; font-weight:bold;">Mark</span></div>',
-        unsafe_allow_html=True
-    )
-    st.write('#### Coder:')
-    img2logo = 'assets/logo.jpeg'
-    st.image([img2logo], caption=["Sam"], width=60)
+#    st.markdown(
+#        f'<div><span style="color:#750014; font-size:40px; font-weight:bold;">Lawdly</span>',
+#        unsafe_allow_html=True
+#    )
+    
+#    st.write('#### Coder:')
+#    img2logo = 'assets/logo.jpeg'
+#    st.image([img2logo], caption=["Sam"], width=60)
 
     
     # Getting the user's email
